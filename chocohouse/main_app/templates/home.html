@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chocolate House</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            background: url('https://as2.ftcdn.net/v2/jpg/06/45/21/69/1000_F_645216945_k5iBAV0Tw708k5z3Spac6o1Q9G3nA7f6.jpg') no-repeat center center fixed;
+            background-size: cover;
+            color: #343a40;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        h1 {
+            margin-top: 50px;
+            font-size: 2.5em;
+            color: #6c757d;
+            background-color: rgba(255, 255, 255, 0.8);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        nav {
+            margin: 20px 0;
+            background-color: rgba(11, 10, 10, 0.8);
+            padding: 10px 20px;
+            border-radius: 10px;
+        }
+        nav a {
+            text-decoration: none;
+            margin: 0 10px;
+            font-size: 1.2em;
+            background: linear-gradient(to right, #ff5f5f, #fe7b7b);
+            -webkit-background-clip: text;
+            color: transparent;
+            transition: all 0.3s ease;
+        }
+        nav a:hover {
+            text-decoration: underline;
+            letter-spacing: 1px;
+            font-size: 1.3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Chocolate House</h1>
+    <nav>
+        <a href="{% url 'flavors' %}">Seasonal Flavors</a> |
+        
+        <a href="{% url 'ingredients' %}">Ingredient Inventory</a> |
+        <a href="{% url 'feedback' %}">Customer Feedback</a>
+    </nav>
+</body>
+</html>

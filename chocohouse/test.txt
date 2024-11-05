@@ -1,0 +1,13 @@
+Explanation of Tests
+
+1) Home Page Test: Ensures the home page loads successfully.
+2) Flavor Tests:
+    Add Flavor: Tests that a new flavor can be added and appears in the database.
+    Delete Flavor: Confirms that a flavor can be deleted and no longer exists in the database.
+3) Ingredient Tests:
+    Add Ingredient: Verifies that a new ingredient can be added and is saved to the database.
+    Delete Ingredient: Checks that an ingredient can be deleted successfully.
+4) Feedback Tests:
+    Add Feedback: Ensures that customer feedback can be submitted and saved.
+5) View Tests:
+    View Flavors, Ingredients, and Feedback: Checks that previously added entries are visible on their respective pages.
