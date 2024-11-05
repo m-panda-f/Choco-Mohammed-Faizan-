@@ -22,15 +22,12 @@ Collect Customer Feedback: Allow customers to suggest flavors and share allergy 
 **1. Clone the Repository**
 First, clone this repository to your local machine and navigate into the project directory:
 
-      ```bash
-             Copy code
             git clone <repository-url>
             cd chocohouse
 **2. Install and Run the Application**
 Set up the Django environment and start the application by running the following commands:
 
       
-         Copy code
          # Run migrations to set up the database
          python manage.py migrate
 
@@ -45,14 +42,11 @@ For a containerized setup, follow these steps to build and run the application u
 **3. Build the Docker Image**
 In the project root directory, build the Docker image:
 
-      
-         Copy code
          docker build -t chocohouse .
 **4. Run the Docker Container**
 Now, run the Docker container, mapping port 8000:
 
       
-      Copy code
       docker run -p 8000:8000 chocohouse
 Access the application in your browser at http://localhost:8000/.
 
