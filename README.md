@@ -82,6 +82,6 @@ To validate the functionality of this application, follow these test steps:
 # 💼 About the Developer
 I'm Mohammed Faizan, a passionate software developer with expertise in Python, Django, and web development. Explore more of my projects and connect with me through the links below:
 
-Portfolio: m-panda-f.github.io/Portfolio
-GitHub: github.com/m-panda-f
-linkedin: https://www.linkedin.com/in/mohammed-faizan-b3305b299/
+   - Portfolio: m-panda-f.github.io/Portfolio
+   - GitHub: github.com/m-panda-f
+   - linkedin: https://www.linkedin.com/in/mohammed-faizan-b3305b299/
