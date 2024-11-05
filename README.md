@@ -12,7 +12,7 @@ Add, View, and Delete Seasonal Flavors: Keep track of special offerings for each
 Manage Ingredient Inventory: Record and monitor the quantity of ingredients on hand.
 Collect Customer Feedback: Allow customers to suggest flavors and share allergy concerns.
 
-#🚀 Getting Started
+# 🚀 Getting Started
 
    Prerequisites
       - Python 3.9+
@@ -79,7 +79,7 @@ To validate the functionality of this application, follow these test steps:
 -   Invalid Quantities: For inventory management, the app checks that quantities are positive integers.
 -   Duplicate Entries: The app ensures that identical entries do not cause unexpected behavior in the system.
   
-#💼 About the Developer
+# 💼 About the Developer
 I'm Mohammed Faizan, a passionate software developer with expertise in Python, Django, and web development. Explore more of my projects and connect with me through the links below:
 
 Portfolio: m-panda-f.github.io/Portfolio
