@@ -20,11 +20,11 @@ A Django application to manage a fictional chocolate house's:
    
 2. Run the Program
       <br>   
-     python manage.py migrate
+     python manage.py migrate<br>   
      python manage.py runserver
 
-3.Build Docker File
+3.Build Docker File<br>   
     docker build -t chocolate_house .
 
-4. Run the Docker Container
+4. Run the Docker Container<br>   
     docker run -p 8000:8000 chocolate_house
