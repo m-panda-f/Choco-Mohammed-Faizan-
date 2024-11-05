@@ -2,7 +2,7 @@
 <h2> Built by Mohammed Faizan </h2>>
 This is a Django-powered application designed to help manage the operations of a fictional chocolate house, handling tasks such as:
 
--   **Seasonal Flavor Offerings: **Add, view, and manage seasonal flavors.
+-   **Seasonal Flavor Offerings:** Add, view, and manage seasonal flavors.
 -   **Ingredient Inventory:** Track ingredients and manage stock levels.
 -   **Customer Feedback:** Collect customer flavor suggestions and allergy concerns.
 Explore the code and projects by visiting my GitHub and portfolio.
