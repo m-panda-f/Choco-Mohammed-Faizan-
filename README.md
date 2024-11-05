@@ -19,6 +19,7 @@ A Django application to manage a fictional chocolate house's:
    cd chocolate_house
    
 2. Run the Program
+      <br>   
      python manage.py migrate
      python manage.py runserver
 
